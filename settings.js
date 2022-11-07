@@ -81,13 +81,13 @@ global.ntilinktwt = []
 global.ntilinkall = []
 global.nticall = []
 global.ntwame = []
-global.nttoxic = []
-global.ntnsfw = []
+global.nttoxic = [true]
+global.ntnsfw = [false]
 global.ntvirtex = []
 global.rkyt = []
 global.wlcm = []
 global.gcrevoke = []
-global.autorep = []
+global.autorep = [true]
 global.ntilink = []
 
 //OTHERS
@@ -108,7 +108,7 @@ global.mess = {
     error: '✉️🤕 ```Error!!```',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
     ban: 'You have been banned by the owner, if you want to be unbanned, chat owner.',
-    nsfw: 'The nsfw feature has not been activated, please contact the admin to activate',
+    nsfw: 'The nsfw feature been activated,
     banChat: 'The bot was banned in this group, please contact the owner to unban'
 }
     global.limitawal = {
